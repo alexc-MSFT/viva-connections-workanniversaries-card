@@ -1,2 +1,2 @@
-# viva-connections-workanniversaries-card
-Work Anniversaries card for Viva Connections
+# Viva Connections 'Work Anniversaries' Card
+
