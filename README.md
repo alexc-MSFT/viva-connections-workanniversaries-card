@@ -6,7 +6,14 @@ A low-code card built with the Card Designer that uses the new Advanced API Feat
 
 It uses the SharePoint REST API and a SharePoint list.
 
-It is designed to be part of a wider 'Work Anniversary' solution utilising a Power Automate flow to send adaptive cards on employee anniversaries however this has not been built yet. This is something I will build at a later date.
+### The wider 'idea'
+
+It is designed to be part of a wider 'Work Anniversary' solution utilising a Power Automate flow to send adaptive cards on employee anniversaries however this has not been built yet. 
+The thinking is to use the Microsoft Graph to retrieve the users' 'employeeHireDate' property, ascertain whether the user has an anniversary in the current week, calculate the number of years and add the item to the list. The list would be cleared down at the end of each week.
+
+## Deployment
+
+This is something I will build at a later date.
 
 To deploy the solution as is, follow the steps below:
 
@@ -28,9 +35,9 @@ To deploy the solution as is, follow the steps below:
 - Title: Anniversaries
 - Icon: Balloon
 - Heading: View upcoming work anniversaries
-- Image: Use the image supplied in this repo
+- Image: Use the image supplied in this repo (anniversaries-card-image)
 - Card action: Show the quick view
-- Template JSON: Copy and paste the provided template JSON from this repo
+- Template JSON: Copy and paste the provided template JSON from this repo (ac-quickview-anniversaries-template.json)
 - Data source: Call a SharePoint API
 - Request URL: lists/GetByTitle('WorkAnniversaries')/items
 
