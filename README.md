@@ -2,7 +2,7 @@
 
 ![image](https://github.com/alexc-MSFT/viva-connections-workanniversaries-card/assets/12395485/9b0d3e60-b006-4a7a-99e5-e464dd3d66de)
 
-A low-code card built with the Card Designer that uses the new Advanced API Features (https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/features/card-designer/card-designer-api-support) to display work anniversaries for employees.
+A low-code card built with the Card Designer that uses the new Advance API Features (https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/features/card-designer/card-designer-api-support) to display work anniversaries for employees.
 
 It uses the SharePoint REST API and a SharePoint list.
 
